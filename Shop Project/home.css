@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #f0f0f0;    
+}
+
+body {
+    max-width: 100%;
+}
+
+main {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Poppins";
+
+}
+
+
+#search {
+    margin: 10px 0 0 320px;
+}
+
+.fixed-size-dropdown {
+    width: auto;
+    max-width: 70px; /* Set a maximum width for the dropdown */
+    height: 35px;
+    border: none;
+  }
+
+select:focus {
+    outline: none;
+}
+  
+input {
+    position: relative;
+    width: 520px;
+    height: 35px;
+    padding-left: 110px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+select {
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.search-btn {
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+header {
+    max-height: 70px;
+    background-color: #E0B0FF;
+    padding-top: .1rem;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;  
+    display: inline;
+    bottom: 3px;
+    left: 30px;
+    
+}
+
+#cart {
+    position: absolute;
+    bottom: 13px;
+    right: 98px;
+}
+
+#cart-no {
+    background-color: white;
+    color: rgb(9, 151, 9);
+    font-weight: 900;
+    display: inline;
+    position: absolute;
+    top: 29px;
+    right: 97px;
+    font-size: 12px;
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+.deals {
+    display: flex;
+    list-style: none;
+    background-color: #a35f78;
+    padding-bottom: 8px;
+    color: white;
+}
+
+li {
+    padding-left: 1rem;
+    padding-top: 5px;
+    font-size: 17px;
+    font-family: "Heebo";
+}
+
+.account {
+    padding-left: 750px;
+}
+
+.first {
+display: flex;
+    list-style: none;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 4px;
+    right: 160px;
+}
+
+.circle {
+    border: 1px solid rgb(228, 168, 168);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fcfcfc; 
+    box-shadow: 1px 1px 10px;   
+
+    
+}
+
+.circles { 
+    font-family: "Montserrat";
+    display: flex;
+    padding-left: 12rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s linear;
+
+}
+
+.circles1 { 
+    font-family: "Montserrat";
+    display: flex;
+    padding-left: 18rem;
+    padding-top: 1.5rem;
+}
+
+.all:hover {
+    transition:  0.3s;
+    transform: translateY(-10px);
+}
+
+.all {
+    padding-left: 2rem;
+}
+
+h3 {
+    padding: 10px 0 0 40px;
+}
+
+#game {
+    padding-left: 0;
+}
+
+
+.box1 img {
+    width: 700px;
+    height: 500px;
+}
+
+/* .cac {
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: none;
+  }
+  
+  .carousel-slide:first-child {
+    display: block;
+  }
+ */
+
+ .carousel {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+
+}
+  
+.slide {
+    position: absolute;
+    top: 100px;
+/*     left: 70px;
+ */    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.9s;
+}
+  
+.slide.active {
+    opacity: 1;
+}
+  
+.carousel-buttons {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 90px;
+}
+  
+.carousel-button {
+    display: inline-block;
+    width:14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    margin: 0 5px;
+    padding: 0;
+}
+  
+.carousel-button.active {
+    background-color: black;
+}
+  
+.images {
+    width: 700px;
+    height: 500px;  
+}
+
+#shop {
+    position: relative;
+    top: 130px;
+    left: 90px;
+    color: white;
+    background-color: blue;
+    padding: 1rem;
+    border: none;
+}
+
+#sneaker {  
+    position: absolute;
+    top: 603px;
+    right: 290px;
+}
+
+
+#hair {
+    position: absolute;
+    top: 823px;
+    right: 70px;
+
+}
+
+#watches {
+    position: absolute;
+    top: 603px;
+    right: 70px;
+}
+
+.thead-cont {
+    margin-bottom: 1000px;
+}
+
+
+.trending-head {
+    background-color: rgb(240, 201, 201); 
+/*     height: 130px;
+ */    color: white;
+    padding: 10px 0 10px 50px;
+    font-family: "Heebo";
+    font-size: 21px;
+}
+
+.star {
+    background-color: rgb(240, 201, 201); 
+    padding-left: 30px;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+.electronics {
+    position: relative;
+    left: 210px;
+    bottom: 85px;
+   
+}
+
+footer {
+    background-color: rgb(66, 66, 160);
+    padding: 2rem;
+    color: white;
+    font-family: "Poppins";
+}
+
+.links {
+   padding-left: 330px;
+}
+
+
+.foot {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.topics {
+    padding-bottom: 1.5rem;
+}
+
+.head {
+    padding-bottom: 2rem;
+    font-size: 22px;
+}
+
+h4 {
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.bottom-line {
+    border-bottom: 1px solid white;
+    padding-top: 80px;
+}
+
+.end {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+
+a.link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(250, 250, 255);
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  a.link:hover::after {
+    transform: scaleX(1);
+  }
+
+.circles a, .circles1 a {
+    color: black;
+}
+
+.circles a:hover, .circles1 a:hover {
+    text-decoration: underline;
+    color: rgb(129, 158, 156);
+}
+
+
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+/*Terms and condition page  */
+
+#tac {
+    text-align: center;
+    padding-top: 7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 42px;
+    padding-bottom: 60px;
+}
+
+.t-spacing {
+    padding-bottom: 2rem;
+}
+

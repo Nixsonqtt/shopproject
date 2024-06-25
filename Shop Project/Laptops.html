@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="laptops.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Laptop | | Flipkart</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="" class="logo">
+        <section id="search">
+            <div class="select-search">
+                <select name="" id="" class="fixed-size-dropdown">
+                    <option value="option1">All</option>
+                    <option value="option2">Laptops</option>
+                    <option value="option3">Phones</option>
+                    <option value="option4">Clothes</option>
+                    <option value="option5">Game Accessories</option>
+                    <option value="option6">Fitness</option>
+                    <option value="option7">Kids</option>
+                </select>
+                <input type="text" placeholder="Search Shop">
+                <button class="search-btn">Search</button>
+            </div>
+        </section>
+        <div>
+            <img src="img/pngwing.com (44).png" width="30px" alt="search" id="cart">
+            <span id="cart-no">0</span>
+        </div>
+
+        <ul class="first">
+            <li> <a href="Home.html" class="link"> Home</a></li>
+            <li><a href="" class="link">Shop</a></li>
+            <li><a href="" class="link">About us</a></li>
+        </ul>
+    </header>
+
+    <ul class="deals">
+        <li> <a href="" class="link"> Today's Deals</a></li>
+        <li> <a href="" class="link"> Top Sellers </a></li>
+        <li> <a href="" class="link"> Best Offers</a></li>
+        <li> <a href="" class="link"> Our Services</a></li>
+        <li class="account"> <a href="signin.html" class="link"> Login</a></li>
+        <li> <a href="signup.html" class="link"> Sign Up</a></li>
+    </ul>
+
+
+    <main>
+        <section class="category">
+            <p class="cat-head">CATEGORIES</p>
+            <p class="cat-sub">> All categories</p>
+            <p class="cat-sub" style="padding-left: 43px;">laptops</p>
+        </section>
+
+
+        <div class="laptops">
+            <div class="laptop">
+                <img src="Laptops/pro book 450.jpg" alt="" width="200px" height="200px">
+                <p class="description">
+                    HP ProBook 450 15.6 inch G9 Notebook PC Wolf Pro Security
+                </p>
+                <div class="cart">
+                    <p class="price"> ₵7350 <span></p>
+                    <button type="submit" onclick="cart()" class="btns">Add to Cart</button>
+                </div>
+            </div>
+
+
+            <div class="laptop">
+                <img src="Laptops/Elite 840 G3.jpg" alt="" width="200px" height="200px">
+                <p class="description">HP EliteBook 840 G4 Intel core i7 128 SSD 16GB DDR4</p>
+                <div class="cart">
+                    <p class="price"> ₵5550 <span></p>
+                    <button type="submit" onclick="cart()" class="btns">Add to Cart</button>
+                </div>
+            </div>
+
+
+            <div class="laptop">
+                <img src="Laptops/Asus L510.jfif" alt="" width="200px" height="200px">
+                <p class="description">Asus L510 2016 Model 4Gb ram DDR </p>
+                <div class="cart">
+                    <p class="price"> ₵6110 <span></p>
+                    <button type="submit" onclick="cart()" class="btns">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="sss"></div>
+
+    <footer>
+        <section class="foot">
+            <span class="contact">
+                <h4 class="head">Contact Us</h4>
+                <h4><a href="tel:+233592671544">059 267 1544</a></h4>
+                <h4>quarteynixson@gmail.com</h4>
+            </span>
+
+
+            <span class="links">
+                <h4 class="head">Quick Links</h4>
+                <h4> <a href="">My Account</a></h4>
+                <h4><a href="">FAQ</a></h4>
+                <h4><a href="">Shopbeta Delivery Terms</a> </h4>
+                <h4><a href="">Privacy Policy</a></h4>
+            </span>
+
+            <span class="links">
+                <h4 class="head">Store List</h4>
+                <h4><a href="">Bulk Purchase</a></h4>
+                <h4><a href="">Terms and Conditions</a></h4>
+                <h4><a href="about.html">About Us</a></h4>
+            </span>
+        </section>
+
+        <div class="bottom-line"></div>
+
+        <p class="end">&copy; Copyright 2023</p>
+    </footer>
+</body>
+
+<script>
+    var number = 0;
+
+    function cart() {
+        number++
+        document.getElementById("cart-no").innerHTML = number;
+    }
+</script>
+
+</html>

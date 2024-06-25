@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@350&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    max-width: 100%;
+}
+
+
+#search {
+    margin: 10px 0 0 290px;
+}
+
+input {
+    width: 600px;
+    height: 35px;
+    padding-left: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+header {
+    max-height: 70px;
+    background-color: #E0B0FF;
+    padding-top: .1rem;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 150px;  
+    display: inline;
+    bottom: 3px;
+    left: 30px;
+    
+}
+
+#cart {
+    position: absolute;
+    bottom: 13px;
+    right: 98px;
+}
+
+#cart-no {
+    background-color: white;
+    display: inline;
+    position: absolute;
+    top: 16px;
+    right: 65px;
+    font-size: 23px;
+    border: 1px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+.deals {
+    display: flex;
+    list-style: none;
+    background-color: #a35f78;
+    padding-bottom: 8px;
+    color: white;
+}
+
+li {
+    padding-left: 1rem;
+    padding-top: 5px;
+    font-size: 17px;
+    font-family: "Heebo"; */
+
+
+.account {
+    padding-left: 750px;
+}
+
+.first {
+    display: flex;
+    list-style: none;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 4px;
+    right: 160px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 130px;
+    font-family: "Heebo";
+    font-size: 50px;
+}
+
+h5 {
+    padding-bottom: 2rem;
+    color: rgb(126, 118, 118);
+    font-weight: 900;
+    font-size: 18px;
+}
+
+main {
+    margin: 140px 100px;
+    font-family: "Quicksand";
+}
+
+#flipkart {
+    color: blue;
+}
+
+#flipkart:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(66, 66, 160);
+    padding: 2rem;
+    color: white;
+}
+
+.links {
+   padding-left: 330px;
+}
+
+
+.foot {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.topics {
+    padding-bottom: 1.5rem;
+}
+
+.head {
+    padding-bottom: 2rem;
+    font-size: 22px;
+}
+
+h4 {
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.bottom-line {
+    border-bottom: 1px solid white;
+    padding-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
